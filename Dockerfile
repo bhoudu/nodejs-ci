@@ -1,5 +1,5 @@
 # Build final docker image now that all binaries are OK
-FROM node:16.20.0-alpine3.18 as base
+FROM node:20.6-alpine3.18 as base
 
 ARG UPLIFT_VERSION
 ENV UPLIFT_VERSION $UPLIFT_VERSION
