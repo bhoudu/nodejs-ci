@@ -24,4 +24,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/nodejs-ci:16
+        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/nodejs-ci:20
